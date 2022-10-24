@@ -1,0 +1,214 @@
+header{
+    background-image: url('../images/events-heavenly-header.jpg');
+    background-size: 100% 100%;
+}
+
+
+.layerOfHome{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+h1{
+    font-size: 60px;
+}
+
+
+.sideNavbar{
+    position: fixed;
+    left: -248px;
+    top: 0;
+    bottom: 0;
+    width: 15.5rem;
+    height: 100vh;
+    background-color: #414658;
+    transition: all 0s;
+    z-index: 99999999999999999;
+   
+   
+}
+
+/* 
+.sideNavbar:hover{
+    transform: translateX(-100%);
+
+} */
+
+
+.sideNavbar a , .sideNavbar i   {
+    transition: all 0.5s;
+}
+
+.sideNavbar a:hover , .sideNavbar i:hover   {
+color: #DD6055;
+}
+
+
+.fa-xmark{
+cursor: pointer;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.openCloseIcon{
+    cursor: pointer;
+    position: absolute;
+    left: 16.5rem;
+    top: 20rem;
+}
+
+
+/* //////////////////////////// */
+
+.descriptionParty{
+    /* height: calc(50vh + 10rem ); */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.innerDescriptionParty{
+    width: 50%;
+    height: 50%;
+    /* background-color: #DD6055; */
+}
+
+
+
+
+/* //////////////////// */
+/* //////////////////// */
+
+
+
+.addressDescription1{
+background-color: #E68285;
+cursor: pointer;
+color: white;
+padding: 10px 0;
+}
+
+
+
+.theDescription1{
+background-color: #CCCCCC;
+padding: 10px 0;
+
+}
+
+
+
+/* //////////////////// */
+/* //////////////////// */
+
+
+
+.addressDescription2  , .addressDescription3  ,  .addressDescription4  {
+    background-color: #E68285;
+    cursor: pointer;
+    color: white;
+    padding: 10px 0;
+}
+    
+    
+    
+.theDescription2  , .theDescription3  ,  .theDescription4  {
+    background-color: #CCCCCC;
+    display: none;
+    padding: 10px 0;
+
+}
+
+
+
+/* //////////////////// */
+/* //////////////////// */
+
+
+
+
+
+.duration{
+    background-image: url('../images/invitation-2508607__340.jpg');
+    background-size: 100%   100%;
+    height: 330px;
+}
+
+.layerOfDuration{
+    background-color: rgba(214, 46, 51, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
+.divIcon{
+    background-color: transparent;
+    border: solid 0.5px;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.1s;
+    margin-right: 1rem;
+}
+
+.divIcon:hover{
+    background-color: #D62E33;
+    color: white;
+}
+
+
+
+.divCounter{
+    height: 10rem;
+    width : 15rem;
+    border: 1px solid white;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+.myForm input{
+    border: gray 0.5px solid;
+}
+
+
+.myForm textarea{
+    padding-bottom:  7rem   ;
+
+}
+
+.buttonForm{
+background-color: #D62E33;
+border: none;
+padding : 0.6rem 0;
+color: white;
+}
