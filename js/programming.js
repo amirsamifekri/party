@@ -108,7 +108,7 @@ $('[placeholder="Enter Message"]').keydown(function(){
 //////////////////// 
 
 
-var countDownDate = new Date("Jul 25, 2023 12:37:52").getTime();
+var countDownDate = new Date("Jul 25, 2024 12:37:52").getTime();
 
 var myfunc = setInterval(function() {
   // code goes here
